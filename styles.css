@@ -34,7 +34,7 @@ header, footer {
     align-items: center;
     margin: 18px auto;
     font-size: 0.9em;
-    font-weight: 200;
+    font-weight: light;
 }
 
 .header-links {
@@ -57,15 +57,80 @@ header, footer {
     font-size: 48px;
 }
 .header-bottom-left p {
-    font-weight: 300;
+    font-weight: light;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .header-button {
+    margin-top: 5px;
     background-color: #3882F6;
     padding: 8px 40px;
     color: white;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.second-row{
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+}
+.second-row h3 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+.secondrow-image {
+    width: 125px;
+    height: 125px;
+    border: solid #3882F6 5px;
+    border-radius: 10px;
+}
+.second-row-images{
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secondrow-image-info{
+    display: flex;
+}
+
+.third-row {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.third-row q {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937
+}
+.third-row p {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fourth-row-main{
+    display: flex;
+    background-color: white;
+    padding: 80px 150px;
+}
+
+.call-square {
+    display: flex;
+    background-color: #3882F6;
+    width: 200px;
+    height: 200px;
 }
