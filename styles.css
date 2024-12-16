@@ -3,13 +3,11 @@
     margin: 0;
     padding: 0;
 }
-* {
-    border: solid red 1px;
-}
 
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 a {
@@ -124,13 +122,38 @@ header, footer {
 
 .fourth-row-main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     padding: 80px 150px;
 }
 
 .call-square {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
-    width: 200px;
-    height: 200px;
+    width: 900px;
+    height: 100px;
+    padding: 0 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.fourth-row-button {
+    border: solid white 1px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    padding: 5px 30px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
